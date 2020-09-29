@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Big basket</title>
+</head>
+<body>
+    
+    <!-- Section1 -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="d-flex flex-grow-1"> 
+               <a class="navbar-brand" href="#">
+                  <img src="https://th.bing.com/th/id/OIP.X8Nnu0h4znW1qiRLrq_41AHaGE?w=244&h=200&c=7&o=5&dpr=1.25&pid=1.7" width="50" height="50" class="d-inline-block align-top" alt="">
+                   <span class="ml-2 display-4 text-success align-top" style="text-shadow: 5px 3px 35px rgb(58, 123, 58);">Basket</span>
+                </a>
+                <form class="my-auto w-100 d-inline-block order-1" style="margin-left: 45px;">
+                    <div class="input-group">
+                    <input type="text" class="form-control border border-right-0 border-success bg-dark text-white" placeholder="Search">
+                        <span class="input-group-append">
+                            <button class="btn btn-outline-light border border-left-0 border-success bg-success" type="button">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>                     
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#"> <h6 class="py-4 mt-1 ml-4">LOGIN <i class="fa fa-sign-in" aria-hidden="true"></i></h6></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#"> <h6 class="py-4 mt-1 ml-4">Signin <i class="fa fa-user-plus" aria-hidden="true"></i></h6></a>
+                    </li>
+                    <li class="navbar-item mx-5 px-3">
+                        <div class="btn-group pl-3">
+                            <button class="btn btn-success dropdown-toggle mt-4" type="button" data-toggle="dropdown" id="dropdown">SHOP BY CATEGORY</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Food Grains</a>
+                                <a href="#" class="dropdown-item">Snacks</a>
+                                <a href="#" class="dropdown-item">Beverages</a>
+                                <a href="#" class="dropdown-item">Kitchen items</a>
+                                <a href="#" class="dropdown-item">Spices</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <!-- carousel -->
+            <div class="carousel slide" id="slider" data-ride="carousel" style="box-shadow: 15px 20px 15px lightgreen">
+              <ol class="carousel-indicators">
+                   <li data-target="#slider" data-slide-to="0" class="active"></li>
+                   <li data-target="#slider" data-slide-to="1" ></li>
+                   <li data-target="#slider" data-slide-to="2" ></li>
+              </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="image/img1.jpg" class="d-block w-100">
+                     <div class="carousel-caption">
+                          <h4 class="text-danger">Fresh Vegetable</h4>
+                      </div>
+                  </div>
+                  <div class="carousel-item ">
+                     <img src="image/img2.jpg" class="d-block w-100">
+                     <div class="carousel-caption">
+                          <h4 class="text-danger">Offer in nuts</h4>
+                     </div>
+                  </div>
+                  <div class="carousel-item ">
+                     <img src="image/img3.jpg" class="d-block w-100">
+                     <div class="carousel-caption">
+                         <h4 class="text-danger">Spices!!!</h4>
+                     </div>
+                  </div>
+                </div>
+               <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon"></span>
+               </a>
+               <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+
+            <br>
+            <br>
+    <!-- Section-3(buttons) -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">HOME & KITCHEN</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">EGGS & MEAT &FISH</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">THE BEAUTY STORE</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">COMBO STORE</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">SPORTS ITEM & TOYS</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-outline-dark btn-lg">50% AND 60% OFF</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Section-4(cards) -->
+        <h4 style="text-align:center; font-family:'Peddana', serif;">My Smart Basket</h4>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="card-group">
+                <!-- card1 -->
+                <div class="card" style="border:2px solid black; border-radius: 10px;">
+                    <img  class="card-img-top" src="image/carrot.jpg" alt="image carrot">
+                   <div class="card-body">
+                       <h5 class="card-title">Hybrid Carrot</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit dicta natus dolor voluptates expedita .</p>
+                       <P class="card-text"><small class="text-muted">MRP:Rs 68/Kg</small></P>
+                       <div class="rating d-flex">
+                        <h6 class="mr-2">Rating</h6>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                   </div>  
+                </div>
+                 <!-- card2 -->
+                <div class="card" style="border:2px solid black; border-radius: 10px;">
+                    <img  class="card-img-top" src="image/onion.jpg" alt="image onion" style="height: 200px;">
+                   <div class="card-body">
+                       <h5 class="card-title">Fresh onion </h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit dicta natus dolor voluptates expedita.</p>
+                       <P class="card-text"><small class="text-muted">MRP:Rs 50/Kg</small></P>
+                       <div class="rating d-flex">
+                           <h6 class="mr-2">Rating</h6>
+                           <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                           <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                           <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                           <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                           <a href="#"></a>
+                       </div>
+                   </div>  
+                </div>
+                 <!-- card3 -->
+                <div class="card" style="border:2px solid black; border-radius: 10px;">
+                    <img  class="card-img-top" src="image/orange.jpg" alt="image orange">
+                   <div class="card-body">
+                       <h5 class="card-title">Fresh orange</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit dicta natus dolor voluptates expedita.</p>
+                       <P class="card-text"><small class="text-muted">MRP:Rs 80/Kg</small></P>
+                       <div class="rating d-flex">
+                        <h6 class="mr-2">Rating</h6>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                   </div>  
+                </div>
+                 <!-- card4 -->
+                <div class="card" style="border:2px solid black; border-radius: 10px;">
+                    <img  class="card-img-top" src="image/chilli.jpg" alt="image chilli">
+                   <div class="card-body">
+                       <h5 class="card-title">Chilli</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit dicta natus dolor voluptates expedita.</p>
+                       <P class="card-text"><small class="text-muted">MRP:Rs 40/Kg</small></P>
+                       <div class="rating d-flex">
+                        <h6 class="mr-2">Rating</h6>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"></a>
+                    </div>
+                   </div>  
+                </div>
+                 <!-- card5-->
+                <div class="card" style="border:2px solid black; border-radius: 10px;">
+                    <img  class="card-img-top" src="image/potato.jpg" alt="image potato" style="height: 200px;">
+                   <div class="card-body">
+                       <h5 class="card-title">Fresh Potato</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit dicta natus dolor voluptates expedita.</p>
+                       <P class="card-text"><small class="text-muted">MRP:Rs 35/Kg</small></P>
+                       <div class="rating d-flex">
+                        <h6 class="mr-2">Rating</h6>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"></a>
+                    </div>
+                   </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- section-5(cards2)-->
+    <div class="card card-body py-5 text-center">
+        <h3 style="font-family:'Peddana', serif;">Most Popular</h3>
+        <div class="row text-center pt-5">
+            <div class="col-md-3">
+                 <img src="image/MASKS.jpg" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen;">
+                 <h5 class="mt-2" >Masks</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="image/SANITI.jpg" class="img-fluid  border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen;">
+                 <h5 class="mt-2" >Sanitizer</h5>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid  border border-success border rounded" src="image/BATTERY.jpg" style="box-shadow: 5px 15px 10px lightgreen";>
+                <h5 class="mt-2" >Battery</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="image/CREAM.jpg" class="img-fluid  border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen";>
+                <h5 class="mt-2">Cream</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+     <!-- Section-6(card3) -->
+     <div class="card card-body py-5 text-center">
+        <h3 style="font-family:'Peddana', serif;">Your Daily Staples</h3>
+        <div class="row text-center pt-5">
+            <div class="col-md-3">
+                 <img src="image/rice.jpg" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen;">
+                 <h5 class="mt-2" >Rice</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="image/oil.jpg" class="img-fluid  border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen;">
+                 <h5 class="mt-2" >Cooking Oil</h5>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid  border border-success border rounded" src="image/flour.jpg" style="box-shadow: 5px 15px 10px lightgreen";>
+                <h5 class="mt-2" >Atta & flour</h5>
+            </div>
+            <div class="col-md-3">
+                <img src="image/salt.jpg" class="img-fluid  border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen";>
+                <h5 class="mt-2">Salt & Sugar</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Section-7(card4) -->
+    <div class="card card-body py-4 text-center">
+        <h3 style="font-family:'Peddana', serif;">Kids fav</h3>
+        <div class="row text-center pt-5">
+            <div class="col-md-6">
+                 <img src="https://images.unsplash.com/photo-1509460711270-4affad6eef6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"  class="border border-success border rounded img-fluid" style="box-shadow: 5px 15px 10px lightgreen" >
+                 <h5 class="mt-2" >Cookies</h5>
+            </div>
+            <div class="col-md-6">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <img src="https://images.unsplash.com/photo-1511870535127-cfd904aab3a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen" >
+                        <h5 class="mt-2">Jam</h5>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen">
+                        <h5 class="mt-2">Honey</h5>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-6">
+                        <img src="https://images.unsplash.com/photo-1580342583488-e6b33ece69d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen">
+                        <h5 class="mt-2">Ketchup</h5>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid border border-success border rounded" style="box-shadow: 5px 15px 10px lightgreen">
+                        <h5 class="mt-2">Gummy Bears</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- carousel-last -->
+    <div class="container">
+        <div class="carousel slide" data-ride="carousel" id="slider2">
+            <ol class="carousel-indicators">
+                <li data-target="#slider2" data-slide-to="0" class="active"></li>
+                <li data-target="#slider2" data-slide-to="1" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption" id="caption2">
+                         <h4 class="text-dark"> pet Store</h4>
+                     </div>
+                     <img src="https://images.unsplash.com/photo-1516453734593-8d198ae84bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100">
+                 </div>
+                 <div class="carousel-item ">
+                    <div class="carousel-caption" id="caption2">
+                         <h4 class="text-dark">The Baby Store</h4>
+                     </div>
+                     <img src="https://images.unsplash.com/photo-1589821470290-6f274e30ac0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100">
+                 </div>
+            </div>
+            <a href="#slider2" class="carousel-control-prev" data-slide="prev" role="button">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">previous</span>
+            </a>
+            <a href="#slider2" class="carousel-control-next" data-slide="next" role="button">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">next</span>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- last section -->
+    <hr>
+    <div class="container">
+        <div class="row text-center pt-4">
+            <div class="col-md-3">
+               <h5>Basket</h5>
+               <ul style="list-style-type: none;">
+                   <li style="margin-left: -30px;"><a href="#">About us</a></li>
+                   <li style="margin-left: -30px;"><a href="#">In News</a></li>
+                   <li style="margin-left: -30px;"><a href="#">Green Basket</a></li>
+                   <li style="margin-left: -30px;"><a href="#">Privacy Policy</a></li>
+                   <li style="margin-left: -30px;"><a href="#">Affliate</a></li>
+                   <li style="margin-left: -30px;"><a href="#">bb instant</a></li>
+                   <li style="margin-left: -30px;"><a href="#">bb daily</a></li>
+               </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Help</h5>
+                <ul style="list-style-type: none;">
+                    <li style="margin-left: -30px;"><a href="#">FAQ</a></li>
+                    <li style="margin-left: -30px;"><a href="#">Contact us</a></li>
+                    <li style="margin-left: -30px;"><a href="#">Vendor Connect</a></li>
+                    <li style="margin-left: -30px;"><a href="#">bb instant</a></li>
+                    <li style="margin-left: -30px;"><a href="#">bb Daily</a></li>
+            </div>
+            <div class="col-md-3">
+                <h5>Download</h5>
+                <a href="#"><img src="https://th.bing.com/th/id/OIP.Ry58QieXJD2x9-OwqnNS7AHaEB?w=290&h=180&c=7&o=5&dpr=1.25&pid=1.7"class="img-fluid" style="width: 150px;height: 100px;margin-left: 35px;"></a>
+                <a href="#"><img src="https://onechristianradio.co.nz/wp-content/uploads/2017/07/download_app_store_buttons_ios_400x2001-300x150.png"class="img-fluid" style="width: 190px;height: 100px;margin-left: 30px;margin-top: -25px;"></a>
+            </div>
+            <div class="col-md-3">
+                <h5>Get social with us</h5>
+                <span class="text-center"><i class="fa fa-twitter" aria-hidden="true"></i></span><br>
+                <span class="text-center"><i class="fa fa-facebook" aria-hidden="true"></i></span><br>
+                <span class="text-center"><i class="fa fa-instagram" aria-hidden="true"></i></span><br>
+                <span class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer>
+
+    <!-- Script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
